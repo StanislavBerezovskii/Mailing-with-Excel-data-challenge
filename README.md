@@ -2,7 +2,7 @@
 
 This project is an Email automatization robot built with Python and the RPA library.
 The robot creates Emails with data from a local .xlsx file, authorizes with a given Gmail account
-and then sends the generated Email to a target Email. Great for saving time when there is a lot of mail to send)
+and then sends the generated Emails to the target recepient. Great for saving time when there is a lot of mail to send)
 
 ## Technology Stack:
 [![Python](https://img.shields.io/badge/-Python-464646?style=flat&logo=Python&logoColor=56C0C0&color=008080)](https://www.python.org/)
