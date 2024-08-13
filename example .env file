@@ -1,0 +1,3 @@
+ACCOUNT_NAME = your gmail account name
+APP_PASSWORD = your app password, created in your gmail account
+RECEPIENT = target Email address
