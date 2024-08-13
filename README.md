@@ -15,21 +15,21 @@ and then sends the generated Emails to the target recepient. Great for saving ti
 * Navigate to the locally cloned repository, create and activate virtual environment:
 
 for Linux/macOS:
-'''
+```
 python3.11 -m venv myenv
 source myenv/bin/activate
-'''
+```
 for Windows:
-'''
+```
 python -m venv myenv
 myenv\Scripts\activate
-'''
+```
 
 * Create an .env file in the project root directory, fill it as demonstrated in the example .env file
 You will need to create an app password in Google to allow the robiot to access Gmail see more here:
-'''
+```
 https://knowledge.workspace.google.com/kb/how-to-create-app-passwords-000009237
-'''
+```
 
 * See the Running and Dependencies sections below if you have questions about project requirements and launch.
 
