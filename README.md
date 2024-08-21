@@ -1,7 +1,8 @@
 ## Mailing-with-Excel-data-challenge
 
-This project is an Email automatization robot built with Python and the RPA library.
-The robot creates Emails with data from a local .xlsx file, authorizes in a given and then sends them to a target Email,
+This project is an Email automation robot built with Python and the RPA library.
+The robot creates Emails with data from a local .xlsx file, authorizes with a given Gmail account
+and then sends the generated Emails to the target recepient. Great for saving time when there is a lot of mail to send)
 
 ## Technology Stack:
 [![Python](https://img.shields.io/badge/-Python-464646?style=flat&logo=Python&logoColor=56C0C0&color=008080)](https://www.python.org/)
@@ -14,21 +15,21 @@ The robot creates Emails with data from a local .xlsx file, authorizes in a give
 * Navigate to the locally cloned repository, create and activate virtual environment:
 
 for Linux/macOS:
-'''
+```
 python3.11 -m venv myenv
 source myenv/bin/activate
-'''
+```
 for Windows:
-'''
+```
 python -m venv myenv
 myenv\Scripts\activate
-'''
+```
 
-* Create an .env file in the project root directory, fill it as demonstrated in the example .env file
-You will need to create an app password in Google to allow the robiot to access Gmail see more here:
-'''
+* Create an .env file in the project root directory, fill it as demonstrated in the example .env file.
+You will need to create an app password in Google to allow the robot to access Gmail, see more here:
+```
 https://knowledge.workspace.google.com/kb/how-to-create-app-passwords-000009237
-'''
+```
 
 * See the Running and Dependencies sections below if you have questions about project requirements and launch.
 
